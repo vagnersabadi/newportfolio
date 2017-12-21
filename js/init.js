@@ -1,9 +1,13 @@
+$(document).ready(function(){
+      $('.carousel').carousel();
+    });
+
 (function($){
   $(function(){
     console.log("Document is ready !")
 
     $('.button-collapse').sideNav();
-    
+
     Materialize.showStaggeredList('#nav-mobile');
 
     $(".side-link a").click(function(e) {

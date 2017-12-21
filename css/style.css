@@ -1,3 +1,7 @@
+.container{
+margin-top: 10px;
+}
+
 .logo {
   text-align: center;
   margin-top: 32px;
@@ -10,7 +14,7 @@
 }
 
 .side-bar {
-  background: #222729 url('../images/overlay.png');
+  background: #00bcd4 url('../images/overlay.png');
 }
 
 .side-link {
@@ -43,7 +47,7 @@
   position: fixed;
   top: 15px;
   left: 15px;
-  color: #4db6ac;
+  color: #00bcd4;
 }
 
 .center {
